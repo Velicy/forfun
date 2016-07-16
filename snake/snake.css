@@ -1,0 +1,9 @@
+body {
+	text-align: center;
+}
+
+#score {
+	font-size: 40px;
+	font-family: "Comic Sans Ms";
+	color: #f5a7a1;
+}
