@@ -1,0 +1,9 @@
+body{
+	border: 1px black;
+	margin: 50px 100px;
+	background-color: black;
+}
+
+#workplace {
+	color: #00FF00;
+}
