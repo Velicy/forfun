@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>format</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="format.css">
+</head>
+
+<body>
+    <div id="content">
+        <h1>论文格式调整</h2>
+        <div id="top">
+            <input type="radio" name="language" class="language" value="chinese" checked="checked">中文
+            <input type="radio" name="language" class="language" value="english">英文
+        </div>
+        <div id="left">
+            <textarea id="in" placeholder="在此处输入"></textarea>
+            <button id="submit">提 交</button>
+            <button id="clear">清 空</button>
+        </div>
+        <div id="right">
+            <textarea id="out" readonly="readonly"></textarea>
+            <button id="copy">复 制</button>
+            <span id="msg"></span>
+        </div>
+    </div>
+    <script type="text/javascript" src="format.js"></script>
+</body>
+
+</html>
